@@ -1,0 +1,133 @@
+
+/* 1. Brand colors and reusable settings */
+
+:root {
+    --background: #fff0f5;
+    --card: #ffffff;
+    --primary: #d96b96;
+    --primary-hover: #bd4f7b;
+    --text: #382632;
+    --muted: #8b7481;
+    --border: #f4dce6;
+}
+
+/* 2. Make sizing predictable */
+* {
+    box-sizing: border-box;
+}
+
+/* 3. Style the entire page */
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: var(--background);
+    color: var(--text);
+}
+
+/* 4. Center the main card */
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 16px;
+}
+
+/* 5. Main business panel */
+.business-card {
+    width: 100%;
+    max-width: 480px;
+    padding: 36px 28px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    box-shadow: 0 15px 45px rgba(40, 30, 90, 0.10);
+    text-align: center;
+}
+
+/* 6. Temporary text-based logo */
+.brand-logo {
+    display: block;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 20px;
+    object-fit: contain;
+    border-radius: 18px;
+}
+
+/* 7. Heading and introduction */
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+#business-description {
+    margin: 12px 0 28px;
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+/* 8. Link button layout */
+#link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* 9. Individual link buttons */
+.business-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 17px 18px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    color: var(--text);
+    background: white;
+    text-align: left;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+}
+
+/* 10. Hover effect on computers */
+.business-link:hover {
+    background: #fff5f8;
+    transform: translateY(-2px);
+    border-color: var(--primary);
+}
+
+/* 11. Keyboard accessibility */
+.business-link:focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 3px;
+}
+
+/* 12. Footer */
+footer {
+    margin-top: 28px;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+footer a {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.copyright {
+    margin-top: 24px;
+    font-size: 12px;
+}
+
+/* 13. Smaller screens */
+@media (max-width: 480px) {
+    .business-card {
+        padding: 28px 18px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+}

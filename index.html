@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the website fit phones and tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Business | Link Hub</title>
+
+    <!-- Connect our CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load JavaScript after the HTML is parsed -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main class="page-container">
+        <section class="business-card">
+
+            <img
+                src="logo.png"
+                alt="Logo"
+                class="brand-logo"
+>
+
+            <h1 id="business-name">My Business</h1>
+
+            <p id="business-description">
+                All our important links in one place.
+            </p>
+
+            <!-- JavaScript will add our link buttons here -->
+            <nav id="link-list" aria-label="Business links">
+            </nav>
+
+            <!-- Contact information -->
+            <footer>
+                <p>
+                    Have questions?
+                    <a id="email-link" href="mailto:hello@example.com">
+                        Contact us
+                    </a>
+                </p>
+
+                <p class="copyright">
+                    &copy; <span id="footer-name">My Business</span>
+                </p>
+            </footer>
+
+        </section>
+    </main>
+</body>
+</html>
