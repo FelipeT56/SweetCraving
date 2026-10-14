@@ -49,8 +49,8 @@ body {
 /* 6. Temporary text-based logo */
 .brand-logo {
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     margin: 0 auto 20px;
     object-fit: contain;
     border-radius: 18px;
