@@ -19,17 +19,17 @@ const business = {
 const links = [
     {
         title: "Facebook",
-        description: "Facebook",
+        description: "Contact me on Facebook,",
         url: "https://www.facebook.com/share/152b8QikXYz/?mibextid=wwXIfr"
     },
     {
         title: "Instagram",
-        description: "Follow us on social media",
+        description: "Follow us on social media,",
         url: "https://instagram.com/sweetcravingbynenas?srtk=aHE3OGtvcjg2NXR6&utm_source=qr"
     },
     {
         title: "TikTok",
-        description: "Browse our products and services",
+        description: "See what we are about.",
         url: "https://www.tiktok.com/@sweetcravingbynenas?_r=1&_t=ZP-9AYEpohngFi"
     },
    
