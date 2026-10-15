@@ -53,7 +53,7 @@ document.getElementById("footer-name").textContent =
 
 const emailLink = document.getElementById("email-link");
 
-emailLink.href = "mailto:" + business.email;
+
 
 /*
     CREATE THE LINK BUTTONS
